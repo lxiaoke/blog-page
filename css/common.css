@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", "Microsoft Sans Serif", sans-serif;
+}
+
+body {
+  border-top: 1px solid transparent;
+  margin-top: -1px;
+  position: relative;
+  font-size: 14px;
+}
+
+hr {
+  margin: 15px 0;
+  border: none;
+  width: 100%;
+  height: 1px;
+  background-color: #CCCCCC;
+}
+
+.beauty-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.beauty-bg-white {
+  background-color: #FFFFFF;
+}
+
+.beauty-card {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 1px 5px 0 #999999;
+  border-radius: 2px;
+}
+
+.beauty-card-head {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.beauty-card-body {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.beauty-badge {
+  font-size: 12px;
+  border: 1px solid #CCCCCC;
+  padding: 0 5px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .beauty-container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .beauty-container {
+    width: 992px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .beauty-container {
+    width: 1200px;
+  }
+}

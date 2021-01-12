@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.app-articles {
+  margin-bottom: 50px;
+}
+
+.breadcrumb {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 0;
+  margin-bottom: 20px;
+}
+
+.breadcrumb>a,
+.breadcrumb>span,
+.breadcrumb>cite {
+  font-style: normal;
+  font-size: 14px;
+}
+
+.breadcrumb>a {
+  color: #999999;
+  text-decoration: none;
+}
+
+.breadcrumb>a:hover {
+  color: #0066CC;
+}
+
+.breadcrumb>cite {
+  padding: 0 10px;
+}
+
+.article-title {
+  font-size: 2em;
+  text-align: center;
+}
+
+.article-aside {
+  text-align: center;
+}
